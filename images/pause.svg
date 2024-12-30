@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="28px" width="28px" viewBox="0 -960 960 960">
+  <!-- White circle background -->
+  <circle cx="480" cy="-480" r="480" fill="white"/>
+  <!-- Fully black-filled content -->
+  <path d="M320-200v-560l440 280-440 280Z" fill="black"/>
+</svg>

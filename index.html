@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" /> -->
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+    <!-- nav Bar -->
+    <nav>
+        <div class="Slogo"><img src="images/logo.svg" alt=LOGO"></div>
+        <div class="middle">
+            <div class="home">
+                <img src="images/home.svg" alt="">
+            </div>
+            <form>
+                <div class="search line">
+                    <span class=" search-icon search-icon material-symbols-outlined">search</span>
+                    <input class="search-input" type="search" placeholder="What song you want to play?">
+                </div>
+            </form>
+        </div>
+        <div class="buttons">
+            <button class="Signup">Sign Up</button>
+            <button class="login">Log In</button>
+        </div>
+    </nav>
+
+
+    <div class="main">
+        <div class="menu"><img src="images/menu.svg" alt=""></div>
+        <!-- Left sectoin FULL -->
+        <div class="left">
+            <!-- left nav -->
+            <div class="menuin"><img src="images/cross.svg" alt=""></div>
+            <nav class="leftnav">
+                <div style="font-family: sans-serif; font-weight: 700; color: #b3b3b3;"><img src="images/library.svg"
+                        alt="LibraryImg">Your Library</div>
+                <div><img src="images/plus.svg" alt="plus"></div>
+            </nav>
+            <section class="Lsection">
+                <div class="songlist">
+                    <ul class="SongList">
+                        <!-- <li>
+                            <div  class="songname">
+                                <div><img src="images/music.svg" alt=""></div>
+                                <div class="info">
+                                    <div class="sname">SqwertyuioplkjhgP</div>
+                                    <div><a href="http://">artist</a></div>
+                                </div>
+                                <div><img class="playl" src="images/pause2.svg" alt=""></div>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </section>
+            <!-- Left footer -->
+            <footer>
+                <div class="leftfooter">
+                    <a href="https://www.spotify.com/in-en/legal/" id="">
+                        <span>Legal</span>
+                    </a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/" id="">
+                        <span> Saftey &amp <br>Privacy Center</span>
+                    </a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/" id="">
+                        <span>Privacy Policy</span>
+                    </a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id="">
+                        <span>Cookies</span>
+                    </a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id="">
+                        <span>About Ads</span>
+                    </a>
+                    <a href="https://www.spotify.com/in-en/accessibility/" id="">
+                        <span>Accessibility</span>
+                    </a>
+                    <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                        rel="noopener">
+                        <span>Cookies</span>
+                    </a>
+                </div>
+                <div class="leftfootbtn">
+                    <button><img src="images/language.svg" alt="IMG">English</button>
+                </div>
+            </footer>
+        </div>
+
+
+
+
+
+
+
+        <!-- right section -->
+        <section class="Rsection">
+            <div class="spotifyplaylist">
+                <h1>Popular artist</h1>
+                <!-- ROW-1 -->
+                <div class="cardcontainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
+                                <circle cx="256" cy="256" r="256" fill="#1ed760" />
+                                <g transform="translate(178, 138) scale(0.5)">
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2iBPiw-default.jpg" alt="">
+                        <h3>The Beatles</h3>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
+                                <!-- Green circular background -->
+                                <circle cx="256" cy="256" r="256" fill="#1fdf64" />
+                                <!-- Original SVG Path, scaled and centered -->
+                                <g transform="translate(178, 138) scale(0.5)">
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647" alt="">
+                        <h3>Tylor Swift</h3>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
+                                <!-- Green circular background -->
+                                <circle cx="256" cy="256" r="256" fill="#1fdf64" />
+                                <!-- Original SVG Path, scaled and centered -->
+                                <g transform="translate(178, 138) scale(0.5)">
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e022bf0876d42b90a8852ad6244" alt="">
+                        <h3>Stephen Sanchez</h3>
+                        <p>Artist</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
+                                <!-- Green circular background -->
+                                <circle cx="256" cy="256" r="256" fill="#1fdf64" />
+                                <!-- Original SVG Path, scaled and centered -->
+                                <g transform="translate(178, 138) scale(0.5)">
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174784daff754ecfe0464ddbeb9" alt="">
+                        <h3>Ed Sheeran</h3>
+                        <p>Artist</p>
+                    </div>
+                    
+                </div>
+                
+                <!-- ROW-3 -->
+                <h1 style="margin-top: 30px;">Album</h1>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
+                                <circle cx="256" cy="256" r="256" fill="#1ed760" />
+                                <g transform="translate(178, 138) scale(0.5)">
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="">
+                        <h3>Name</h3>
+                        <p>Album</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
+                                <!-- Green circular background -->
+                                <circle cx="256" cy="256" r="256" fill="#1fdf64" />
+                                <!-- Original SVG Path, scaled and centered -->
+                                <g transform="translate(178, 138) scale(0.5)">
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174bd6fbc7d0973cc33940781ad" alt="">
+                        <h3>Name</h3>
+                        <p>Album</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- foot -->
+            <footer class="rightfoot">
+                <div class="col">
+                    <p>Company</p>
+                    <a href="http://">About</a>
+                    <a href="http://">Jobs</a>
+                    <a href="http://">For records</a>
+                </div>
+                <div class="col">
+                    <p>Communitites</p>
+                    <a href="http://">For artist</a>
+                    <a href="http://">Devlopers</a>
+                    <a href="http://">Vendors</a>
+                    <a href="http://">Investors</a>
+                    <a href="http://">Advertising</a>
+                </div>
+                <div class="col">
+                    <p>Useful links</p>
+                    <a href="http://">Support</a>
+                    <a href="http://">Free Mobile App</a>
+                </div>
+                <div class="col">
+                    <p>Spotify plans</p>
+                    <a href="http://">Premium Duo<a>
+                            <a href="http://">Premium Family<a>
+                                    <a href="http://">Premium Student<a>
+                                            <a href="http://">Premium Individual<a>
+                                                    <a href="http://">Spotify Free</a>
+                </div>
+
+                <div class="footbutton">
+                    <img src="images/instagrambtn.svg" alt="">
+                    <img src="images/xlogo.svg" alt="">
+                    <img src="images/facbooklogo.svg" alt="">
+                </div>
+            </footer>
+            <div class="lastline"></div>
+            <div class="spotifyremark">
+                &copy; Spotify AB
+            </div>
+
+            <!-- PLAYBAR -->
+            <div class="playbar">
+                <div class="songnameonplaybar"></div>
+                <div class="playbarbuttons">
+                    <button ><img id="previous" src="images/previous.svg" alt="prv img"></button>
+                    <button class="middlebuttonplaybar"><img id="play" src="images/pause.svg" alt="pause img"></button>
+                    <button ><img id="next" src="images/next.svg" alt="next img"></button>
+                </div>
+                <div class="seekbar">
+                    <img class="seekbarpointer" src="images/seekbarointer.svg" alt="">
+                    <div class="songtime">00:00 / 00:00</div>
+                </div>
+                <div class="volbtns">
+                    <img id="volup" style="margin-right: 10px;" src="images/volumeup.svg" alt="">
+                    <img id="voldown" src="images/volumedown.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</body>
+
+</html>
