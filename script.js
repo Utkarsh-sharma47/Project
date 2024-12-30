@@ -5,7 +5,7 @@ let songs;
 let v = 0.02 ;
 //promise function
 async function getsong() {
-    let a = await fetch("https://utkarsh-sharma47.github.io/songs/");
+    let a = await fetch("/songs/");
     let response = await a.text();
     // console.log(response);
     let div = document.createElement("div");
