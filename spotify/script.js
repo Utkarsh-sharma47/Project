@@ -5,7 +5,7 @@ let songs;
 let v = 0.02 ;
 //promise function
 async function getsong() {
-    let a = await fetch("/songs/");
+    let a = await fetch("songs/");
     let response = await a.text();
     // console.log(response);
     let div = document.createElement("div");
@@ -44,7 +44,7 @@ function formatTime(seconds) {
 //functions to play music
 const playmusic = (track) => {
     // var audio = new Audio ("/songs/" + track);
-    currentsong.src = "/songs/" + track;
+    currentsong.src = "songs/" + track;
     play.src = "images/play.svg";
     currentsong.play()
     document.querySelector(".songnameonplaybar").innerHTML = decodeURI(track.replaceAll(".mp3", ""));
